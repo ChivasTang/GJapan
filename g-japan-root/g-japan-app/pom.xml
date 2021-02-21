@@ -8,9 +8,9 @@
         <version>1.0.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>g-japan</artifactId>
+    <artifactId>g-japan-app</artifactId>
     <version>1.0.0</version>
-    <name>g-japan</name>
+    <name>g-japan-app</name>
     <description>Chinese Live Better in Japan Community App</description>
     <dependencies>
         <dependency>
@@ -29,7 +29,7 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>g-japan-${g-japan.version}</finalName>
+        <finalName>g-japan-app-${g-japan.version}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
